@@ -1,6 +1,7 @@
 package Star;
 
 //Ques   --> below to print
+
 //  * * * * *
 //  * * * * *
 //  * * * * *

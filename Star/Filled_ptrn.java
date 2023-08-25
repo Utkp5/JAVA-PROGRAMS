@@ -8,7 +8,6 @@ package Star;
 //  * * * * *
 //  * * * * *
 
-
 public class Filled_ptrn {
 
     public static void main(String[] args) {

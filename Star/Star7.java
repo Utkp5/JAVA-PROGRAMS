@@ -1,4 +1,5 @@
 package Star;
+import java.util.Scanner;
 
 //Ques   --> below to print
 
@@ -16,7 +17,12 @@ package Star;
 public class Star7 {
     public static void main(String[] args) {
 
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("ENTER A NUMBER : ");        
+        int n = sc.nextInt();
+        System.out.println("-------------------");        
+
 
         for (int i = 1; i <= n; i++) {  
                 
@@ -36,6 +42,6 @@ public class Star7 {
             System.out.println();
             
         }        
-        
+        sc.close();       
     }
 }

@@ -1,7 +1,7 @@
 package Letter;
 import java.util.Scanner;
 
-//Ques   --> below to print...  its O letter   (pending)
+//Ques   --> below to print...  its N letter  
 
 //    *      * 
 //    * *    *  
@@ -25,9 +25,8 @@ public class Let3 {
             for (int j = 1; j <= n; j++) {
                 
                 if (j == 1 || j == n || j == i) {
-
-                    System.out.print("*");              
                     
+                    System.out.print("*");                    
                 }
                 System.out.print("_");
             }            

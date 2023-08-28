@@ -1,7 +1,12 @@
 package Letter;
 
-//Ques   --> below to print...  its O letter   (pending)
+//Ques   --> below to print...  its O letter  
 
+// * * * * *
+// *       *
+// *       *
+// *       *
+// * * * * *
 
 
 

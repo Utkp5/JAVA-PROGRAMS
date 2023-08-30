@@ -38,15 +38,25 @@ public class Arr2 {
             }
         }
 
-        // for (int i = 0; i < 5; i++) {   // for highest marks in subject
+        double max_marks = marks[0];
 
-        //     if (marks[i] >= marks[i+1]) {
+        for (int i = 0; i < 5; i++) {   // for highest marks in subject
 
-        //         double Hig_marks = marks[i];
+            if (marks[i] >= max_marks) {
+                max_marks = marks[i];
+            }
+        }
+        System.out.println("You Highest marks out of 5  Subject :" + max_marks );
 
-        //         System.out.println("You are got Highest marks in " + (i+1) + " Subject");
-        //     }
-        // }
+        double min_marks = marks[0];
+
+        for (int i = 0; i < 5; i++) {   // for lowest marks in subject
+
+            if (marks[i] <= min_marks) {
+                max_marks = marks[i];
+            }
+        }
+        System.out.println("You Lowest marks out of 5  Subject : " + min_marks );
 
         for (int i = 0; i < 5; i++) {   // for count marks in subject more than 60
 
@@ -54,7 +64,7 @@ public class Arr2 {
                 count++ ;
             }
         }
-        System.out.println("You are got more than 60 marks in " + count + " Subject");
+        System.out.println("You are got more than 60 marks in : " + count + " Subject");
 
         
         System.out.println("===================");

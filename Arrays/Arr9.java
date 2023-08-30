@@ -2,6 +2,7 @@ package Arrays;
 import java.util.Scanner;
 
 // Q7. Write a Program to reverse the elements of array without another array.
+// ((((pending))))
 
 public class Arr9 {
     public static void main(String[] args) {
@@ -11,6 +12,7 @@ public class Arr9 {
 
         int arr[] = new int[5];
 
+        int temp = 0;
         for (int i = 0; i < arr.length; i++) {   
             
             System.out.print("ENTER VALUE " + i + " IN ARRAY : ");   
@@ -20,13 +22,14 @@ public class Arr9 {
         System.out.println("===================");
         System.out.println("Reverse Element in Array");
 
-        for (int i = arr.length-1; i >= 0; i--) {
-
-            for (int j = 0; j < arr.length; j++) {
+        for (int j = arr.length-1; j >= 0; j--) {                
                 
-                arr[j] = arr[i];
-                System.out.println(arr[j] + " ");
-            }            
+                temp = arr[j];
+                arr[j] = arr[0];
+                arr[0] = temp;
+                System.out.println(arr[0] + " ");
+                // arr[0]++;
+
         }
         
 

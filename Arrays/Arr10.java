@@ -28,10 +28,10 @@ public class Arr10 {
             if (arr[i] == check_element) {
                 System.out.println("ENTERED ELEMENT IS PRESENT!");
             }   
-            else if (arr[i] != check_element) {
-                System.out.println("ENTERED ELEMENT IS NOT PRESENT!");
+            // else if (arr[i] != check_element) {
+            //     System.out.println("ENTERED ELEMENT IS NOT PRESENT!");
                 
-            }         
+            // }         
             
         }
         

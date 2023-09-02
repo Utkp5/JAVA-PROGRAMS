@@ -1,9 +1,9 @@
 package Arrays;
 import java.util.Scanner;
 
-// Q15. Write a program to displa The Common ELEMENT in 2 arra
+// Q17. Write a program to display distinct  ELEMENT in 2 arra
 
-public class Arr15 {
+public class Arr16 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -30,8 +30,8 @@ public class Arr15 {
 
             for (int k = 0; k < arr1.length; k++) {
                 
-                if (arr[j] == arr1[k]) {
-                    System.out.println("same element : " + arr1[k]);
+                if (arr[j] != arr1[k]) {
+                    System.out.println("Distinct element : " + arr[j] +" "+ arr1[k]);
                 }
             }
                 

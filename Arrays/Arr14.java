@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.Scanner;
 
-// Q14. Write a program to FIND THE SECOND OCCURRENCE ELEMENT in a given
+// Q12. Write a program to FIND THE SECOND OCCURRENCE ELEMENT in a given
 
 public class Arr14 {
     public static void main(String[] args) {

@@ -20,7 +20,7 @@ public class Arr4 {
 
         for (int i = 0; i < marks.length; i++) {            
             System.out.print(marks[i] + " ");
-        }        
+        }
 
 
         sc.close();

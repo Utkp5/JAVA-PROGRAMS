@@ -1,7 +1,7 @@
 package Arrays;
 import java.util.Scanner;
 
-// 12. Write a program to FIND HOW MANY TIMES an ELEMENT OCCURED in a given array
+// 11. Write a program to FIND HOW MANY TIMES an ELEMENT OCCURED in a given array
 
 public class Arr13 {
     public static void main(String[] args) {

@@ -23,17 +23,18 @@ public class Arr10 {
         System.out.print("Now Enter The Element to check whether it is present or not : ");
         check_element = sc.nextInt();
 
+        boolean flag = false;
         for (int i = 0; i < arr.length; i++) {
             
             if (arr[i] == check_element) {
+                flag = true;
                 System.out.println("ENTERED ELEMENT IS PRESENT!");
             }   
-            // else if (arr[i] != check_element) {
-            //     System.out.println("ENTERED ELEMENT IS NOT PRESENT!");
-                
-            // }         
             
         }
+        if (flag == false) {
+            System.out.println("ENTERED ELEMENT IS NOT PRESENT!");            
+        }         
         
 
         sc.close();

@@ -1,7 +1,7 @@
 package TwoDArray;
 import java.util.Scanner;
 
-public class two_D_even_elemnt {
+public class two_D_even_elemnt_2 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -32,7 +32,7 @@ public class two_D_even_elemnt {
         {
             for (int j = 0; j < arr[i].length; j++) {
 
-                System.out.print(arr[i][j] + " ");
+                System.out.print(arr[i][j] + "  ");
 
             }
             System.out.println();
@@ -42,14 +42,14 @@ public class two_D_even_elemnt {
 
         for (int i = 0; i < arr.length; i++) {  // for printing the values
 
+            int sum = 0;
+
             for (int j = 0; j < arr[i].length; j++) {
 
-                if (arr[i][j] % 2 == 0) {
-                    System.out.println("Even Elements in 2D Array: " + arr[i][j] + " ");
-                }
-
+                sum = sum + arr[i][j];
+                
             }
-            System.out.println();
+            System.out.println("Sum of all Elements in 2D Array for (row 1) " + (i+1) + "  : " + sum);
         }
       
         

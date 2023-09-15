@@ -1,7 +1,9 @@
 package TwoDArray;
 import java.util.Scanner;
 
-public class two_D_even_elemnt_2 {
+//Q2. Create a 2d array and find sum of all the elements in a row.
+
+public class two_D_elemnt_2 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);

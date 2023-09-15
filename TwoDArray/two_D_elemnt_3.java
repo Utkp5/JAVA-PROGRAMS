@@ -1,9 +1,9 @@
 package TwoDArray;
 import java.util.Scanner;
 
-//Q6. Create a 2d array and find occurence of even elements.
+//Q4. Create a 2d array and find max of all the elements in a row.
 
-public class two_D_even_elemnt {
+public class two_D_elemnt_3 {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -34,29 +34,28 @@ public class two_D_even_elemnt {
         {
             for (int j = 0; j < arr[i].length; j++) {
 
-                System.out.print(arr[i][j] + " ");
+                System.out.print(arr[i][j] + "  ");
 
             }
             System.out.println();
         }
 
         System.out.println("========================================");
-        int evenCount = 0;
+
+        int max = arr[0][0];
         for (int i = 0; i < arr.length; i++) {  // for printing the values
 
             for (int j = 0; j < arr[i].length; j++) {
 
-                if (arr[i][j] % 2 == 0) {
-                    evenCount++;
-                    System.out.println("Even Elements in 2D Array: " + arr[i][j] + " ");
+                if (max < arr[i][j])                {
+                    System.out.println("Sum of all Elements in 2D Array for (row 1) " + (i+1) + "  : ");
+                } else {
+                    
                 }
-
+                
             }
-            System.out.println();
         }
-        
-        System.out.println("========================================");
-        System.out.println("No. of even element in 2D array : " + evenCount);
+      
         
         sc.close();
 

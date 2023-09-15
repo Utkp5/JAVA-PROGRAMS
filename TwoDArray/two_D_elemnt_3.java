@@ -1,7 +1,7 @@
 package TwoDArray;
 import java.util.Scanner;
 
-//Q4. Create a 2d array and find max of all the elements in a row.
+//Q4. Create a 2d array and find MAX of all the elements in a row.
 
 public class two_D_elemnt_3 {
     public static void main(String[] args) {
@@ -42,18 +42,17 @@ public class two_D_elemnt_3 {
 
         System.out.println("========================================");
 
-        int max = arr[0][0];
         for (int i = 0; i < arr.length; i++) {  // for printing the values
-
+            
+            int max = arr[i][0];
             for (int j = 0; j < arr[i].length; j++) {
 
-                if (max < arr[i][j])                {
-                    System.out.println("Sum of all Elements in 2D Array for (row 1) " + (i+1) + "  : ");
-                } else {
-                    
+                if (max < arr[i][j]) {
+                    max = arr[i][j];
                 }
                 
             }
+            System.out.println("Max Elements in 2D Array for (row " + (i+1) + ")  : "+max);
         }
       
         

@@ -42,7 +42,7 @@ public class two_D_elemnt_9 {
                     System.out.println();
                 }      
     
-                System.out.println("============== lower triangular matrix ============");
+                System.out.println("============== upper triangular matrix ============");
 
                 for (int i = 0; i < arr.length; i++) { //print  matrix 2
     
@@ -50,8 +50,15 @@ public class two_D_elemnt_9 {
                         
                         if (i >= j ) {
 
-                            System.out.print(arr[i][j] + "  ");
+                            System.out.print(" ");
                             
+                        }
+                    }
+                    for (int j = 0; j < arr[i].length; j++) {
+                        
+                        if (i <= j ) {
+                            
+                            System.out.print(arr[i][j]);
                         }
                     }
                     System.out.println();
